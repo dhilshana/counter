@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:550px;
+    overflow:hidden;
+}
+.counter{
+    background-color: white;
+    width:400px;
+    height:250px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+center{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+.add{
+    width:100px;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(41, 122, 41);
+    border: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.lower{
+    width:100px;
+    height: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: rgb(151, 47, 21);
+    border: none;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+.add:hover{
+    background-color: rgb(15, 51, 10);
+}
+.lower:hover{
+    background-color: rgb(88, 11, 11);
+}
